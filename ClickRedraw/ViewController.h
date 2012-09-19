@@ -53,7 +53,6 @@
     IBOutlet UILabel* _totalSavedLabel;
     IBOutlet UIButton* _showGraphButton;
     int _taxStatus;
-    
 }
 
 @property (retain, nonatomic) MyView*  myView;

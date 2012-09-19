@@ -51,6 +51,7 @@
  */
 
 #import "MyView.h"
+#import "ViewController.h"
 
 @implementation MyView
 
@@ -59,8 +60,21 @@
 @synthesize addlDiscountedPrice;
 @synthesize taxPrice;
 
+/*
+-(float) price
+{
+    NSLog(@"\nin int price");
+    return price;
+}
+
+-(void) setPrice:(float)price
+{
+    NSLog(@"\nin setPrice");
+    
+}
+*/
 - (void) drawRect:(CGRect)rect
-{    
+{
     //Variable to hold the percent of tax in the total discount
     float mTaxPer = 0;
     
@@ -91,6 +105,7 @@
         mdiscountedPrice = 10.88;
         maddlDiscountedPrice = 4.89;
     }else{ //else, get the values from ViewController.h
+        NSLog(@"\nValues Found For Graph, Drawing Graph...");
         mPrice = self.price;
         mtaxPrice = self.taxPrice;
         mdiscountedPrice = self.discountedPrice;
@@ -158,15 +173,29 @@
 
 - (id)initWithFrame:(CGRect)frame
 {
-    self = [super initWithFrame:frame];
-    if (self) {
+    if (self != nil)
+    {
+        //if it's not nil, please don't initialize it again!
+        //I've set variables in there!
+    }else if (self == nil)
+    {
+        //go ahead and initlize it if it's nil
+        self = [super initWithFrame:frame];
     }
     return self;
 }
 
 - (id) initWithCoder:(NSCoder *)aDecoder
 {
-    self = [super initWithCoder:aDecoder];
+    if (self != nil)
+    {
+        //if it's not nil, please don't initialize it again!
+        //I've set variables in there!
+    }else if (self == nil)
+    {
+        //go ahead and initlize it if it's nil
+        self = [super initWithCoder:aDecoder];
+    }
     if (self) {
         self.isOn = NO;
     }

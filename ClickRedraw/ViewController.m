@@ -61,7 +61,6 @@
 //Calculate Discount does all calculations and changes the appropriate labels.
 - (IBAction)calculateDiscount:(UIButton *)sender
 {
-    
     //when they press "calculate", get rid of the keyboard:
     [self.priceTextField resignFirstResponder];
     [self.discountTextField resignFirstResponder];
@@ -133,7 +132,6 @@
         self.myView.discountedPrice = discountedPrice;
         self.myView.addlDiscountedPrice = addlDiscountedPrice;
         self.myView.taxPrice = taxPrice;
-//*******this is where I'm having a problem. "self.myView.price" is not being set to "price", and so forth.
         
     }else if(self.taxStatus==1) //The user wishes to apply taxes AFTER all discounts.
     {
@@ -188,8 +186,7 @@
         self.myView.discountedPrice = discountedPrice;
         self.myView.addlDiscountedPrice = addlDiscountedPrice;
         self.myView.taxPrice = taxPrice;
-//*******this is where I'm having a problem. "self.myView.price" is not being set to "price", and so forth.
-    }
+        }
     //display the "show graph" button:
     self.showGraphButton.hidden = false;
     
