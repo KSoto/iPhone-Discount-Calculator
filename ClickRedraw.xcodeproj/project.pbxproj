@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03E8BA47160134A200277F50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E8BA46160134A200277F50 /* UIKit.framework */; };
+		03E8BA49160134A200277F50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E8BA48160134A200277F50 /* Foundation.framework */; };
+		03E8BA4B160134A200277F50 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E8BA4A160134A200277F50 /* CoreGraphics.framework */; };
+		03E8BA51160134A200277F50 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03E8BA4F160134A200277F50 /* InfoPlist.strings */; };
+		03E8BA53160134A200277F50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E8BA52160134A200277F50 /* main.m */; };
+		03E8BA57160134A200277F50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E8BA56160134A200277F50 /* AppDelegate.m */; };
+		03E8BA5A160134A200277F50 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E8BA58160134A200277F50 /* MainStoryboard_iPhone.storyboard */; };
+		03E8BA60160134A200277F50 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E8BA5F160134A200277F50 /* ViewController.m */; };
+		03E8BA68160134A200277F50 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E8BA67160134A200277F50 /* SenTestingKit.framework */; };
+		03E8BA69160134A200277F50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E8BA46160134A200277F50 /* UIKit.framework */; };
+		03E8BA6A160134A200277F50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E8BA48160134A200277F50 /* Foundation.framework */; };
+		03E8BA72160134A200277F50 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03E8BA70160134A200277F50 /* InfoPlist.strings */; };
+		03E8BA75160134A200277F50 /* ClickRedrawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E8BA74160134A200277F50 /* ClickRedrawTests.m */; };
+		03E8BA84160136AF00277F50 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E8BA83160136AF00277F50 /* MyView.m */; };
+		CE41B488160423FD003FE0C0 /* background3T2.png in Resources */ = {isa = PBXBuildFile; fileRef = CE41B487160423FD003FE0C0 /* background3T2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03E8BA6B160134A200277F50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03E8BA39160134A200277F50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03E8BA41160134A200277F50;
+			remoteInfo = ClickRedraw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03E8BA42160134A200277F50 /* ClickRedraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClickRedraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03E8BA46160134A200277F50 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		03E8BA48160134A200277F50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03E8BA4A160134A200277F50 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		03E8BA4E160134A200277F50 /* ClickRedraw-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClickRedraw-Info.plist"; sourceTree = "<group>"; };
+		03E8BA50160134A200277F50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03E8BA52160134A200277F50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03E8BA54160134A200277F50 /* ClickRedraw-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ClickRedraw-Prefix.pch"; sourceTree = "<group>"; };
+		03E8BA55160134A200277F50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03E8BA56160134A200277F50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03E8BA59160134A200277F50 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		03E8BA5E160134A200277F50 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		03E8BA5F160134A200277F50 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		03E8BA66160134A200277F50 /* ClickRedrawTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickRedrawTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03E8BA67160134A200277F50 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		03E8BA6F160134A200277F50 /* ClickRedrawTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClickRedrawTests-Info.plist"; sourceTree = "<group>"; };
+		03E8BA71160134A200277F50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03E8BA73160134A200277F50 /* ClickRedrawTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClickRedrawTests.h; sourceTree = "<group>"; };
+		03E8BA74160134A200277F50 /* ClickRedrawTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClickRedrawTests.m; sourceTree = "<group>"; };
+		03E8BA82160136AF00277F50 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		03E8BA83160136AF00277F50 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		CE41B487160423FD003FE0C0 /* background3T2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background3T2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03E8BA3F160134A200277F50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E8BA47160134A200277F50 /* UIKit.framework in Frameworks */,
+				03E8BA49160134A200277F50 /* Foundation.framework in Frameworks */,
+				03E8BA4B160134A200277F50 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E8BA62160134A200277F50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E8BA68160134A200277F50 /* SenTestingKit.framework in Frameworks */,
+				03E8BA69160134A200277F50 /* UIKit.framework in Frameworks */,
+				03E8BA6A160134A200277F50 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03E8BA37160134A200277F50 = {
+			isa = PBXGroup;
+			children = (
+				CE41B487160423FD003FE0C0 /* background3T2.png */,
+				03E8BA4C160134A200277F50 /* ClickRedraw */,
+				03E8BA6D160134A200277F50 /* ClickRedrawTests */,
+				03E8BA45160134A200277F50 /* Frameworks */,
+				03E8BA43160134A200277F50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03E8BA43160134A200277F50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03E8BA42160134A200277F50 /* ClickRedraw.app */,
+				03E8BA66160134A200277F50 /* ClickRedrawTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03E8BA45160134A200277F50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03E8BA46160134A200277F50 /* UIKit.framework */,
+				03E8BA48160134A200277F50 /* Foundation.framework */,
+				03E8BA4A160134A200277F50 /* CoreGraphics.framework */,
+				03E8BA67160134A200277F50 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03E8BA4C160134A200277F50 /* ClickRedraw */ = {
+			isa = PBXGroup;
+			children = (
+				03E8BA55160134A200277F50 /* AppDelegate.h */,
+				03E8BA56160134A200277F50 /* AppDelegate.m */,
+				03E8BA58160134A200277F50 /* MainStoryboard_iPhone.storyboard */,
+				03E8BA5E160134A200277F50 /* ViewController.h */,
+				03E8BA5F160134A200277F50 /* ViewController.m */,
+				03E8BA82160136AF00277F50 /* MyView.h */,
+				03E8BA83160136AF00277F50 /* MyView.m */,
+				03E8BA4D160134A200277F50 /* Supporting Files */,
+			);
+			path = ClickRedraw;
+			sourceTree = "<group>";
+		};
+		03E8BA4D160134A200277F50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03E8BA4E160134A200277F50 /* ClickRedraw-Info.plist */,
+				03E8BA4F160134A200277F50 /* InfoPlist.strings */,
+				03E8BA52160134A200277F50 /* main.m */,
+				03E8BA54160134A200277F50 /* ClickRedraw-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03E8BA6D160134A200277F50 /* ClickRedrawTests */ = {
+			isa = PBXGroup;
+			children = (
+				03E8BA73160134A200277F50 /* ClickRedrawTests.h */,
+				03E8BA74160134A200277F50 /* ClickRedrawTests.m */,
+				03E8BA6E160134A200277F50 /* Supporting Files */,
+			);
+			path = ClickRedrawTests;
+			sourceTree = "<group>";
+		};
+		03E8BA6E160134A200277F50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03E8BA6F160134A200277F50 /* ClickRedrawTests-Info.plist */,
+				03E8BA70160134A200277F50 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03E8BA41160134A200277F50 /* ClickRedraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03E8BA78160134A200277F50 /* Build configuration list for PBXNativeTarget "ClickRedraw" */;
+			buildPhases = (
+				03E8BA3E160134A200277F50 /* Sources */,
+				03E8BA3F160134A200277F50 /* Frameworks */,
+				03E8BA40160134A200277F50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClickRedraw;
+			productName = ClickRedraw;
+			productReference = 03E8BA42160134A200277F50 /* ClickRedraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03E8BA65160134A200277F50 /* ClickRedrawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03E8BA7B160134A200277F50 /* Build configuration list for PBXNativeTarget "ClickRedrawTests" */;
+			buildPhases = (
+				03E8BA61160134A200277F50 /* Sources */,
+				03E8BA62160134A200277F50 /* Frameworks */,
+				03E8BA63160134A200277F50 /* Resources */,
+				03E8BA64160134A200277F50 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03E8BA6C160134A200277F50 /* PBXTargetDependency */,
+			);
+			name = ClickRedrawTests;
+			productName = ClickRedrawTests;
+			productReference = 03E8BA66160134A200277F50 /* ClickRedrawTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03E8BA39160134A200277F50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Michael Shafae";
+			};
+			buildConfigurationList = 03E8BA3C160134A200277F50 /* Build configuration list for PBXProject "ClickRedraw" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03E8BA37160134A200277F50;
+			productRefGroup = 03E8BA43160134A200277F50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03E8BA41160134A200277F50 /* ClickRedraw */,
+				03E8BA65160134A200277F50 /* ClickRedrawTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03E8BA40160134A200277F50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E8BA51160134A200277F50 /* InfoPlist.strings in Resources */,
+				03E8BA5A160134A200277F50 /* MainStoryboard_iPhone.storyboard in Resources */,
+				CE41B488160423FD003FE0C0 /* background3T2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E8BA63160134A200277F50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E8BA72160134A200277F50 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03E8BA64160134A200277F50 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03E8BA3E160134A200277F50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E8BA53160134A200277F50 /* main.m in Sources */,
+				03E8BA57160134A200277F50 /* AppDelegate.m in Sources */,
+				03E8BA60160134A200277F50 /* ViewController.m in Sources */,
+				03E8BA84160136AF00277F50 /* MyView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E8BA61160134A200277F50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E8BA75160134A200277F50 /* ClickRedrawTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03E8BA6C160134A200277F50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03E8BA41160134A200277F50 /* ClickRedraw */;
+			targetProxy = 03E8BA6B160134A200277F50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03E8BA4F160134A200277F50 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03E8BA50160134A200277F50 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		03E8BA58160134A200277F50 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03E8BA59160134A200277F50 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		03E8BA70160134A200277F50 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03E8BA71160134A200277F50 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03E8BA76160134A200277F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03E8BA77160134A200277F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03E8BA79160134A200277F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClickRedraw/ClickRedraw-Prefix.pch";
+				INFOPLIST_FILE = "ClickRedraw/ClickRedraw-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03E8BA7A160134A200277F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClickRedraw/ClickRedraw-Prefix.pch";
+				INFOPLIST_FILE = "ClickRedraw/ClickRedraw-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		03E8BA7C160134A200277F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ClickRedraw.app/ClickRedraw";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClickRedraw/ClickRedraw-Prefix.pch";
+				INFOPLIST_FILE = "ClickRedrawTests/ClickRedrawTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		03E8BA7D160134A200277F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ClickRedraw.app/ClickRedraw";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClickRedraw/ClickRedraw-Prefix.pch";
+				INFOPLIST_FILE = "ClickRedrawTests/ClickRedrawTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03E8BA3C160134A200277F50 /* Build configuration list for PBXProject "ClickRedraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E8BA76160134A200277F50 /* Debug */,
+				03E8BA77160134A200277F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03E8BA78160134A200277F50 /* Build configuration list for PBXNativeTarget "ClickRedraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E8BA79160134A200277F50 /* Debug */,
+				03E8BA7A160134A200277F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03E8BA7B160134A200277F50 /* Build configuration list for PBXNativeTarget "ClickRedrawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E8BA7C160134A200277F50 /* Debug */,
+				03E8BA7D160134A200277F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03E8BA39160134A200277F50 /* Project object */;
+}
