@@ -48,6 +48,16 @@
 @synthesize taxStatus = _taxStatus;
 @synthesize showGraphButton = _showGraphButton;
 
+-(MyView*) myView
+{
+    if(_myView == nil) //if myView hasn't been initialized yet, initialize it!
+    {
+        _myView = [[MyView alloc] init];
+    }
+    return _myView;
+}
+
+
 //Calculate Discount does all calculations and changes the appropriate labels.
 - (IBAction)calculateDiscount:(UIButton *)sender
 {

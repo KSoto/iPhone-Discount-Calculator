@@ -54,6 +54,11 @@
 
 @implementation MyView
 
+@synthesize price;
+@synthesize discountedPrice;
+@synthesize addlDiscountedPrice;
+@synthesize taxPrice;
+
 - (void) drawRect:(CGRect)rect
 {    
     //Variable to hold the percent of tax in the total discount
